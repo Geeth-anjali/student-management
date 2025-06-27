@@ -126,7 +126,7 @@ How to handle form data and error debugging
 
 📌 Author
 
-Anjali G
+Anjali 
 Student & Full Stack Developer
 GitHub Profile
 
