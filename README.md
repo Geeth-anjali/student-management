@@ -128,8 +128,6 @@ How to handle form data and error debugging
 
 Anjali 
 Student & Full Stack Developer
-GitHub Profile
-
 
 ---
 
