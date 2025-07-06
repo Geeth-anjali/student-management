@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th = "http://wwww.thymeleaf.org">
+<head>
+	<meta charset = "UTF-8">
+	<title>🏠 Home Page </title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" 
+integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<style>
+	html,body {
+		height: 100%;
+		margin: 0;
+	}
+	
+	body {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	main {
+		flex: 1;
+	}
+	
+	footer {
+		background-color: #f8f9fa;
+		text-align: center;
+		padding: 10px;
+	}
+</style>
+</head>
+<body class="bg-light">
+	<main>
+	<div class="container text-center mt-5">
+		<h2 class="mb-4"> Welcome to the Student DataBase 🎓</h2>
+		<p class="lead text-muted">Easily manage student records - add, view, edit, or delete students. </p>
+		<a th:href="@{/students}" class="btn btn-dark text-white m-2"> View All Students 📋</a>
+		<a th:href="@{/students/add}" class="btn btn-success m-2"> Add New Student 📝</a>
+	</div>
+	</main>
+	<footer>
+		<small> Built with Spring Boot, Thymeleaf, and MySQL 💻</small>
+	</footer>
+</body>
+</html>

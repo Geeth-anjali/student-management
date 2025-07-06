@@ -7,9 +7,15 @@
 integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
+<div th:if="${successMessage}" class="alert alert-success text-center mt-3" role="alert">
+	<span th:text="${successMessage}"></span>
+</div>
 <div class="container mt-5">
-	<h2 class = "text-center text-dark my-3"> Student List </h2>
-	<a href="/students/add" class="btn btn-success mb-3"> Add Student </a>
+	<h2 class = "text-center text-dark my-3"> Student List 📜</h2>
+<div class="d-flex justify-content-end mb-3">
+	<a th:href="@{/}" class="btn btn-outline-dark mt-5"> Back to Home </a>
+</div>
+<!-- <a href="/students/add" class="btn btn-success mb-3"> Add Student </a> -->
 	<table class="table table-bordered table-striped">
 		<thead>
 		<tr>
