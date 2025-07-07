@@ -6,7 +6,7 @@ It allows users to **add**, **view**, **edit**, and **delete** student records f
 ---
 ## Project Links
 - **GitHub Repo: [Student Management System](https://github.com/Geeeth-anjali/student-management)
--**Demo Video: (https://drive.google.com/drive/folders/10UH4N8bOdTlxpV8uSIRs0Y6wXjwQjdAQ?usp=drive_link)
+- **Demo Video: (https://drive.google.com/drive/folders/10UH4N8bOdTlxpV8uSIRs0Y6wXjwQjdAQ?usp=drive_link)
 ---
 
 ## ✨ Features
