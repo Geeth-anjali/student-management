@@ -4,6 +4,10 @@ This is a **full-stack web application** built using **Spring Boot**, **Spring M
 It allows users to **add**, **view**, **edit**, and **delete** student records from a database via a user-friendly web interface.
 
 ---
+## Project Links
+- **GitHub Repo: [Student Management System](https://github.com/Geeeth-anjali/student-management)
+-**Demo Video: (https://drive.google.com/drive/folders/10UH4N8bOdTlxpV8uSIRs0Y6wXjwQjdAQ?usp=drive_link)
+---
 
 ## ✨ Features
 
